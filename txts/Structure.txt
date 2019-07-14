@@ -1,0 +1,37 @@
+constants:
+	name
+	value
+
+players:
+	name
+	id
+	last_game
+	rate
+
+questions:
+	theme
+	id
+	question
+	answer
+	wa1
+	wa2
+	wa3
+	rate
+
+games:
+	id
+	pl1
+	pl2
+	finished
+
+
+Game:
+	id
+	pl1
+	pl2
+	themes[]
+	questions[]
+	success[]
+	shuffeled_themes[]
+	turn
+	time
